@@ -10,12 +10,10 @@
 		2F01C96D14338DC100A7AA67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F01C96C14338DC100A7AA67 /* UIKit.framework */; };
 		2F01C96F14338DC100A7AA67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F01C96E14338DC100A7AA67 /* Foundation.framework */; };
 		2F01C97114338DC100A7AA67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F01C97014338DC100A7AA67 /* CoreGraphics.framework */; };
-		2F01C97714338DC100A7AA67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F01C97514338DC100A7AA67 /* InfoPlist.strings */; };
-		2F01C97914338DC100A7AA67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F01C97814338DC100A7AA67 /* main.m */; };
-		2F01C97D14338DC100A7AA67 /* PeopleIndexedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F01C97C14338DC100A7AA67 /* PeopleIndexedAppDelegate.m */; };
-		2F01C98014338DC100A7AA67 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F01C97E14338DC100A7AA67 /* MainWindow.xib */; };
-		2F01C98814338DD300A7AA67 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F01C98714338DD300A7AA67 /* Person.m */; };
-		2F01C98B14338E0100A7AA67 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F01C98A14338E0100A7AA67 /* PeopleViewController.m */; };
+		2F8ABCD51433E4A000F471D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8ABCD01433E4A000F471D1 /* main.m */; };
+		2F8ABCD71433E4A000F471D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8ABCD21433E4A000F471D1 /* AppDelegate.m */; };
+		2F8ABCD81433E4A000F471D1 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8ABCD31433E4A000F471D1 /* PeopleViewController.m */; };
+		2F8ABCD91433E4A000F471D1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8ABCD41433E4A000F471D1 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +21,14 @@
 		2F01C96C14338DC100A7AA67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F01C96E14338DC100A7AA67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F01C97014338DC100A7AA67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F01C97414338DC100A7AA67 /* PeopleIndexed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeopleIndexed-Info.plist"; sourceTree = "<group>"; };
-		2F01C97614338DC100A7AA67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F01C97814338DC100A7AA67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F01C97A14338DC100A7AA67 /* PeopleIndexed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeopleIndexed-Prefix.pch"; sourceTree = "<group>"; };
-		2F01C97B14338DC100A7AA67 /* PeopleIndexedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeopleIndexedAppDelegate.h; sourceTree = "<group>"; };
-		2F01C97C14338DC100A7AA67 /* PeopleIndexedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeopleIndexedAppDelegate.m; sourceTree = "<group>"; };
-		2F01C97F14338DC100A7AA67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2F01C98614338DD300A7AA67 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		2F01C98714338DD300A7AA67 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		2F01C98914338E0100A7AA67 /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
-		2F01C98A14338E0100A7AA67 /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+		2F8ABCD01433E4A000F471D1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F8ABCD21433E4A000F471D1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F8ABCD31433E4A000F471D1 /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+		2F8ABCD41433E4A000F471D1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2FDA2C3F1434A09800A11BCA /* PeopleIndexed-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PeopleIndexed-Info.plist"; sourceTree = "<group>"; };
+		2FDA2C431434AD8A00A11BCA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FDA2C441434AD8A00A11BCA /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		2FDA2C451434AD8A00A11BCA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +48,9 @@
 		2F01C95D14338DC100A7AA67 = {
 			isa = PBXGroup;
 			children = (
-				2F01C97214338DC100A7AA67 /* PeopleIndexed */,
+				2FDA2C421434AD8A00A11BCA /* Headers */,
+				2F8ABCCE1433E4A000F471D1 /* Resources */,
+				2F8ABCCF1433E4A000F471D1 /* Sources */,
 				2F01C96B14338DC100A7AA67 /* Frameworks */,
 				2F01C96914338DC100A7AA67 /* Products */,
 			);
@@ -77,30 +74,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2F01C97214338DC100A7AA67 /* PeopleIndexed */ = {
+		2F8ABCCE1433E4A000F471D1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2F01C98614338DD300A7AA67 /* Person.h */,
-				2F01C98714338DD300A7AA67 /* Person.m */,
-				2F01C97B14338DC100A7AA67 /* PeopleIndexedAppDelegate.h */,
-				2F01C97C14338DC100A7AA67 /* PeopleIndexedAppDelegate.m */,
-				2F01C97E14338DC100A7AA67 /* MainWindow.xib */,
-				2F01C98914338E0100A7AA67 /* PeopleViewController.h */,
-				2F01C98A14338E0100A7AA67 /* PeopleViewController.m */,
-				2F01C97314338DC100A7AA67 /* Supporting Files */,
+				2FDA2C3F1434A09800A11BCA /* PeopleIndexed-Info.plist */,
 			);
-			path = PeopleIndexed;
+			name = Resources;
+			path = ../Resources;
 			sourceTree = "<group>";
 		};
-		2F01C97314338DC100A7AA67 /* Supporting Files */ = {
+		2F8ABCCF1433E4A000F471D1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2F01C97414338DC100A7AA67 /* PeopleIndexed-Info.plist */,
-				2F01C97514338DC100A7AA67 /* InfoPlist.strings */,
-				2F01C97814338DC100A7AA67 /* main.m */,
-				2F01C97A14338DC100A7AA67 /* PeopleIndexed-Prefix.pch */,
+				2F8ABCD01433E4A000F471D1 /* main.m */,
+				2F8ABCD21433E4A000F471D1 /* AppDelegate.m */,
+				2F8ABCD31433E4A000F471D1 /* PeopleViewController.m */,
+				2F8ABCD41433E4A000F471D1 /* Person.m */,
 			);
-			name = "Supporting Files";
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		2FDA2C421434AD8A00A11BCA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2FDA2C431434AD8A00A11BCA /* AppDelegate.h */,
+				2FDA2C441434AD8A00A11BCA /* PeopleViewController.h */,
+				2FDA2C451434AD8A00A11BCA /* Person.h */,
+			);
+			name = Headers;
+			path = ../Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +153,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F01C97714338DC100A7AA67 /* InfoPlist.strings in Resources */,
-				2F01C98014338DC100A7AA67 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,33 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F01C97914338DC100A7AA67 /* main.m in Sources */,
-				2F01C97D14338DC100A7AA67 /* PeopleIndexedAppDelegate.m in Sources */,
-				2F01C98814338DD300A7AA67 /* Person.m in Sources */,
-				2F01C98B14338E0100A7AA67 /* PeopleViewController.m in Sources */,
+				2F8ABCD51433E4A000F471D1 /* main.m in Sources */,
+				2F8ABCD71433E4A000F471D1 /* AppDelegate.m in Sources */,
+				2F8ABCD81433E4A000F471D1 /* PeopleViewController.m in Sources */,
+				2F8ABCD91433E4A000F471D1 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2F01C97514338DC100A7AA67 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F01C97614338DC100A7AA67 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2F01C97E14338DC100A7AA67 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F01C97F14338DC100A7AA67 /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2F01C98114338DC100A7AA67 /* Debug */ = {
@@ -212,6 +194,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
+				SYMROOT = ../build;
 			};
 			name = Debug;
 		};
@@ -230,6 +213,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				SYMROOT = ../build;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -238,9 +222,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PeopleIndexed/PeopleIndexed-Prefix.pch";
-				INFOPLIST_FILE = "PeopleIndexed/PeopleIndexed-Info.plist";
+				INFOPLIST_FILE = "../Resources/PeopleIndexed-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = ../Headers;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -249,9 +233,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PeopleIndexed/PeopleIndexed-Prefix.pch";
-				INFOPLIST_FILE = "PeopleIndexed/PeopleIndexed-Info.plist";
+				INFOPLIST_FILE = "../Resources/PeopleIndexed-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = ../Headers;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,6 +259,7 @@
 				2F01C98514338DC100A7AA67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
