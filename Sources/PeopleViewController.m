@@ -72,7 +72,7 @@
         [newPeopleArray replaceObjectAtIndex:i withObject:sortedPeopleArray]; 
     }
     
-    self.peopleSortedArray = newPeopleArray;    
+    self.peopleSortedArray = newPeopleArray;  
 }
 
 #pragma mark - 
@@ -136,7 +136,11 @@
     if (tableView == self.searchDisplayController.searchResultsTableView) {
         return 0;
     }
-    return [self.collation sectionForSectionIndexTitleAtIndex:index];
+    if ([title isEqualToString:UITableViewIndexSearch]) {
+        [self.tableView setContentOffset:CGPointMake(0, 0) animated:YES];
+        return -1;
+    }
+    return [self.collation sectionForSectionIndexTitleAtIndex:(index - 1)];
 }
 
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView 
@@ -144,7 +148,10 @@
     if (tableView == self.searchDisplayController.searchResultsTableView) {
         return nil;
     }
-    return [self.collation sectionIndexTitles];
+    NSMutableArray *IndexTitles = [NSMutableArray arrayWithObject:UITableViewIndexSearch];
+    
+    [IndexTitles addObjectsFromArray:[[self collation] sectionIndexTitles]];
+    return IndexTitles;
 }
 
 
