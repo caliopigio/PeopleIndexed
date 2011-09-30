@@ -25,7 +25,6 @@
   didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
     NSMutableArray *people = [NSMutableArray arrayWithObjects:
             P(@"78"), P(@"%"), P(@"Gapatero"), P(@"Huan"), P(@"Jlberto"), 
             P(@"Kedro"), P(@"Lna"), P(@"Ñxl"), P(@"Zosé"), P(@"Capatero"), 
@@ -39,11 +38,10 @@
             P(@"Kuan"), P(@"Qlberto"), P(@"Bedro"), P(@"Ina"), P(@"Uxl"), 
             P(@"José"), P(@"Zapatero"), P(@"Juan"), P(@"Alberto"), P(@"Pedro"), 
             P(@"Ana"), P(@"Axl"), P(@"José"), nil];
-    
     PeopleViewController *viewcontroller = [[PeopleViewController alloc] 
             initWithStyle:UITableViewStylePlain];
             
-    viewcontroller.people = people;
+    [viewcontroller setPeople:people];
     _window.rootViewController = viewcontroller;
     [viewcontroller release];
     [_window makeKeyAndVisible];
