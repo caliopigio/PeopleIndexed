@@ -32,18 +32,17 @@
             P(@"José"),P(@"Qapatero"), P(@"Wuan"), P(@"Elberto"), P(@"Redro"), 
             P(@"Tna"), P(@"Yxl"), P(@"Uosé"), P(@"Iapatero"), P(@"Ouan"), 
             P(@"Plberto"), P(@"Aedro"), P(@"Sna"), P(@"Dxl"), P(@"Fosé"),
-            P(@"Gapatero"), P(@"Muan"), P(@"Llberto"), P(@"Ñedro"), P(@"Ona"), 
+            P(@"Gapatero"), P(@"Muan"), P(@"Llberto"), P(@"Ñedro"), P(@"Ona"),
             P(@"Pxl"), P(@"Gosé"), P(@"Capatero"), P(@"Vuan"), P(@"Qlberto"), 
             P(@"Hedro"), P(@"Xna"), P(@"Yxl"), P(@"Yosé"), P(@"Kapatero"), 
             P(@"Kuan"), P(@"Qlberto"), P(@"Bedro"), P(@"Ina"), P(@"Uxl"), 
-            P(@"José"), P(@"Zapatero"), P(@"Juan"), P(@"Alberto"), P(@"Pedro"), 
+            P(@"José"), P(@"Zapatero"), P(@"Juan"), P(@"Alberto"), P(@"Pedro"),
             P(@"Ana"), P(@"Axl"), P(@"José"), nil];
-    PeopleViewController *viewcontroller = [[PeopleViewController alloc] 
-            initWithStyle:UITableViewStylePlain];
+    PeopleViewController *controller = [[[PeopleViewController alloc] 
+            initWithStyle:UITableViewStylePlain] autorelease];
             
-    [viewcontroller setPeople:people];
-    _window.rootViewController = viewcontroller;
-    [viewcontroller release];
+    [controller setPeople:people];
+    [_window setRootViewController:controller];
     [_window makeKeyAndVisible];
     return YES;
 }
