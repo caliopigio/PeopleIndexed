@@ -182,11 +182,8 @@
     }
     return YES;
     */
-
-    [_filteredArray autorelease];
-    
     NSPredicate *predicate = [NSPredicate predicateWithFormat:
-            @"name like[cd] %@", searchString];
+            @"name contains[cd] %@", searchString];
     NSArray *peopleSorted = [_collation sortedArrayFromArray:_people
             collationStringSelector:@selector(name)];
 
